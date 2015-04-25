@@ -75,7 +75,6 @@
 		3028093DF3AF3B3A469CFD64 /* EXPMatchers.h in Headers */ = {isa = PBXBuildFile; fileRef = 57C97322A3E485FB9AB9EEA8 /* EXPMatchers.h */; };
 		302A2E88BDC8A09DDC9652B2 /* MKTLongLongArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = A6C6240FF995093BCA31BEBF /* MKTLongLongArgumentGetter.h */; };
 		30661D709479392EA666927D /* HCBaseDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C9066D76B19D85DC27AAA3A /* HCBaseDescription.h */; };
-		311E7FBFCBD801C379BFA700 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6828E7C0E1756E8953321A1 /* CFNetwork.framework */; };
 		3180CB48BCA7A38C7F6541F0 /* OHHTTPStubs+NSURLSessionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 26103460DB27A2E5933439D4 /* OHHTTPStubs+NSURLSessionConfiguration.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
 		319F13615C70BDF9E5B571FD /* EXPMatchers+beGreaterThan.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F53C7DB7EE74246CFDF024 /* EXPMatchers+beGreaterThan.m */; };
 		31BEB8372FB17094A2B4D0AC /* HCUnsignedLongLongReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC35FA0558DB6525CC65684 /* HCUnsignedLongLongReturnGetter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
@@ -340,6 +339,7 @@
 		D966116246246A8D0BCAED7C /* HCAllOf.h in Headers */ = {isa = PBXBuildFile; fileRef = DCEFDEDE08F82DDFC1E0C16D /* HCAllOf.h */; };
 		D9BC6805B8791AC1E0AA1132 /* HCReturnValueGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 600119240C04E0A96C0543A0 /* HCReturnValueGetter.h */; };
 		DAD94796A6B241269363B49C /* HCLongReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = CFD46C3720A104F067D2FF2E /* HCLongReturnGetter.h */; };
+		DB14424F1AEC57D400BA9710 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6828E7C0E1756E8953321A1 /* CFNetwork.framework */; };
 		DDE052C04992476756D29BC8 /* HCAnyOf.h in Headers */ = {isa = PBXBuildFile; fileRef = FAECB44F68D7E25F794AF228 /* HCAnyOf.h */; };
 		DE173369B9F98860FE70E3A0 /* MKTVerificationMode.h in Headers */ = {isa = PBXBuildFile; fileRef = F35B566CB925E6B14DC4D80D /* MKTVerificationMode.h */; };
 		DE68F17C2576492018ED416C /* HCTestFailureHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = E47E93C6CE70DD32638C63FF /* HCTestFailureHandler.h */; };
@@ -745,7 +745,7 @@
 		B52FD9BEDAC33BF9047BD9E2 /* MKTTestLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTTestLocation.m; path = Source/OCMockito/MKTTestLocation.m; sourceTree = "<group>"; };
 		B569030DBBA6BB84FFD2A35E /* MKTAtLeastTimes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTAtLeastTimes.h; path = Source/OCMockito/MKTAtLeastTimes.h; sourceTree = "<group>"; };
 		B599319221CF1C99317E45F3 /* EXPMatchers+beGreaterThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThanOrEqualTo.m"; path = "src/matchers/EXPMatchers+beGreaterThanOrEqualTo.m"; sourceTree = "<group>"; };
-		B65702B17B2A6E73C3B865F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B65702B17B2A6E73C3B865F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = "../../../Adobe Flash CS5.5/AIR2.6/lib/aot/stub/Foundation.framework"; sourceTree = DEVELOPER_DIR; };
 		B7106EABFF888A3A05E1CF62 /* MKTUnsignedCharReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTUnsignedCharReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTUnsignedCharReturnSetter.m; sourceTree = "<group>"; };
 		B7B5FDF9CC5C421D48AD65B4 /* EXPMatchers+endWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+endWith.m"; path = "src/matchers/EXPMatchers+endWith.m"; sourceTree = "<group>"; };
 		BAF248778DD6646C1AF29346 /* HCDoubleReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCDoubleReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCDoubleReturnGetter.h; sourceTree = "<group>"; };
@@ -819,7 +819,7 @@
 		E4A222722D5512AC8624634F /* MKTTestLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTTestLocation.h; path = Source/OCMockito/MKTTestLocation.h; sourceTree = "<group>"; };
 		E5D24A8087A3526920D608D0 /* Pods-unit_tests-Swizzlean-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-unit_tests-Swizzlean-Private.xcconfig"; sourceTree = "<group>"; };
 		E66F6A9536A2AEE2ADB2D6AC /* HCSenTestFailureHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCSenTestFailureHandler.h; path = Source/Core/Helpers/TestFailureHandlers/HCSenTestFailureHandler.h; sourceTree = "<group>"; };
-		E6828E7C0E1756E8953321A1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		E6828E7C0E1756E8953321A1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = "../../../Adobe Flash CS5.5/AIR2.6/lib/aot/stub/CFNetwork.framework"; sourceTree = DEVELOPER_DIR; };
 		E688932ED0C59A663BAADB31 /* libPods-unit_tests-OHHTTPStubs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unit_tests-OHHTTPStubs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D0AB5CA2ECD214D7991A1B /* HCIsEmptyCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsEmptyCollection.h; path = Source/Library/Collection/HCIsEmptyCollection.h; sourceTree = "<group>"; };
 		E7A34D488C1914DBD208BD0B /* Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Expecta.h; path = src/Expecta.h; sourceTree = "<group>"; };
@@ -864,7 +864,7 @@
 		FC6C4D83F69AEE53E5787632 /* HCLongLongReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCLongLongReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCLongLongReturnGetter.m; sourceTree = "<group>"; };
 		FC8A35144F7462C929A13E39 /* libPods-unit_tests-OCMockito.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unit_tests-OCMockito.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDEE5045693E8B2095D75E6B /* MKTLongLongReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTLongLongReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTLongLongReturnSetter.m; sourceTree = "<group>"; };
-		FF0D52B976C08FD262B6CCA3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FF0D52B976C08FD262B6CCA3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		FF5E210627773889308EFE6B /* MKTStructReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTStructReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTStructReturnSetter.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -898,7 +898,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				311E7FBFCBD801C379BFA700 /* CFNetwork.framework in Frameworks */,
+				DB14424F1AEC57D400BA9710 /* CFNetwork.framework in Frameworks */,
 				497977269BCF2893A60355AF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2192,6 +2192,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				DSTROOT = /tmp/xcodeproj.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-unit_tests-OHHTTPStubs/Pods-unit_tests-OHHTTPStubs-prefix.pch";
 				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
@@ -2573,6 +2577,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/xcodeproj.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

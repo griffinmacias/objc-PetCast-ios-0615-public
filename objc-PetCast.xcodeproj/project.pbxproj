@@ -12,6 +12,8 @@
 		482D2E8F47AD47979EFF891C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AF81A5289D45EAA2F19EF4 /* main.m */; };
 		5171D40E67259D41884EDCC0 /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B627BE81D7997190CF7802 /* libPods-unit_tests.a */; };
 		9AF9063830C34ED0B3E89B3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F28609C53504142A3CDCCAD /* Foundation.framework */; };
+		DB14424B1AEC522700BA9710 /* FISPet.m in Sources */ = {isa = PBXBuildFile; fileRef = DB14424A1AEC522700BA9710 /* FISPet.m */; };
+		DB14424E1AEC523900BA9710 /* FISDog.m in Sources */ = {isa = PBXBuildFile; fileRef = DB14424D1AEC523900BA9710 /* FISDog.m */; };
 		DCCE3AAABDF34C04AE42C254 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333D26DD4ABC4AE2A85B33E2 /* Images.xcassets */; };
 		FDC791D83E89434B87E488A3 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CC415B5C7E445DAD1414D9 /* FISAppDelegate.m */; };
 /* End PBXBuildFile section */
@@ -32,7 +34,7 @@
 		319BA7C819DEFFC20031C31D /* FISPetSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPetSpec.m; sourceTree = "<group>"; };
 		31AF81A5289D45EAA2F19EF4 /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		333D26DD4ABC4AE2A85B33E2 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3F28609C53504142A3CDCCAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F28609C53504142A3CDCCAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = "../../../Applications/Adobe Flash CS5.5/AIR2.6/lib/aot/stub/Foundation.framework"; sourceTree = "<group>"; };
 		5B8C885DE55476ABFC6A7669 /* Pods-unit_tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.release.xcconfig"; sourceTree = "<group>"; };
 		5CE926AF33E84265810141B9 /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
 		67F6C2266F4869A02E7A8109 /* Pods-unit_tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -41,6 +43,10 @@
 		964253FB2F274C7FBAB8042F /* objc-PetCast-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "objc-PetCast-Prefix.pch"; sourceTree = "<group>"; };
 		AC7D892834C14E1185B11DFA /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 		B8B627BE81D7997190CF7802 /* libPods-unit_tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unit_tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1442491AEC522700BA9710 /* FISPet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISPet.h; sourceTree = "<group>"; };
+		DB14424A1AEC522700BA9710 /* FISPet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPet.m; sourceTree = "<group>"; };
+		DB14424C1AEC523900BA9710 /* FISDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISDog.h; sourceTree = "<group>"; };
+		DB14424D1AEC523900BA9710 /* FISDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISDog.m; sourceTree = "<group>"; };
 		E2C4F61669E54078A02E778C /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E497469AF5E841399B002946 /* objc-PetCast-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "objc-PetCast-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -144,6 +150,10 @@
 		DC1B94A60B48414CA3B72004 /* objc-PetCast */ = {
 			isa = PBXGroup;
 			children = (
+				DB1442491AEC522700BA9710 /* FISPet.h */,
+				DB14424A1AEC522700BA9710 /* FISPet.m */,
+				DB14424C1AEC523900BA9710 /* FISDog.h */,
+				DB14424D1AEC523900BA9710 /* FISDog.m */,
 				6BF26FB9837047FF8DA599D0 /* FISAppDelegate.h */,
 				70CC415B5C7E445DAD1414D9 /* FISAppDelegate.m */,
 				56B4D1BEB3A042BD9188A24F /* Resources */,
@@ -311,6 +321,8 @@
 			files = (
 				FDC791D83E89434B87E488A3 /* FISAppDelegate.m in Sources */,
 				482D2E8F47AD47979EFF891C /* main.m in Sources */,
+				DB14424B1AEC522700BA9710 /* FISPet.m in Sources */,
+				DB14424E1AEC523900BA9710 /* FISDog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
